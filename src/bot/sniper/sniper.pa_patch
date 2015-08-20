@@ -18,8 +18,8 @@
       {"op": "add", "path": "/events", "value" : {
         "died": {
           "audio_cue": "/SE/Impacts/shell_bullet",
-          "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx",
-          "effect_scale": 3.0
+          "effect_spec": "/mod/sniper/sniper_ammo_hit.pfx",
+          "effect_scale": 1.0
         }
       }},
       {"op": "add", "path": "/fx_trail", "value" : {
