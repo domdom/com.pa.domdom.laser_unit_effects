@@ -224,14 +224,8 @@
       "lifetime": 0.4,
       "emitterLifetime": 10,
       "endDistance": 2000
-    }}
-    ]
-  },
-  {
-    "target": "/mod/sniper/sniper_ammo_trail.pfx",
-    "destination": "/mod/sniper/sniper_ammo_trail.pfx",
-    "patch" : [
-      {"op" : "copy", "path" : "/emitters/5", "from" : "/emitters/3"},
+    }},
+    {"op" : "copy", "path" : "/emitters/5", "from" : "/emitters/3"},
       {"op" : "copy", "path" : "/emitters/6", "from" : "/emitters/1"},
 
       {"op" : "replace", "path" : "/emitters/5/spec/shape", "value" : "string"},
