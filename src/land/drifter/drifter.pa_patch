@@ -97,26 +97,5 @@
       {"op": "scale", "path" : "/emitters/2/lifetime",  "value" : 3.2},
       {"op": "replace", "path" : "/emitters/2/spec/size",  "value" : [[0,0.65],[0.5, 0]]}
     ]
-  },
-  {
-    "target": "/pa_ex1/effects/specs/hover_idle_01.pfx",
-    "destination": "/pa/effects/specs/hover_idle_01.pfx",
-    "patch": [
-      {"op": "replace", "path": "/emitters/0/useArmyColor", "value": 0 },
-      {"op": "replace", "path": "/emitters/1/useArmyColor", "value": 0 },
-      {"op": "replace", "path": "/emitters/2/useArmyColor", "value": 0 },
-
-      {"op": "add", "path": "/emitters/0/spec/red", "value": 0.3 },
-      {"op": "add", "path": "/emitters/0/spec/green", "value": 1 },
-      {"op": "add", "path": "/emitters/0/spec/blue", "value": 2 },
-
-      {"op": "replace", "path": "/emitters/1/spec/red", "value": 0.3 },
-      {"op": "replace", "path": "/emitters/1/spec/green", "value": 1.8 },
-      {"op": "replace", "path": "/emitters/1/spec/blue", "value": 5 },
-
-      {"op": "replace", "path": "/emitters/2/spec/red", "value": 0.3 },
-      {"op": "replace", "path": "/emitters/2/spec/green", "value": 3.8 },
-      {"op": "replace", "path": "/emitters/2/spec/blue", "value": 5 }
-    ]
   }
 ]

@@ -1,11 +1,13 @@
+DONE:
+ Drifter
+  [x] Main cannon
+
 TODO:
-Kaiju
- - 2 main double cannons
- - 2 side double cannons smaller
-Ares
- - main quad cannon
- - 3 secondary cannons
-Drifter
- - Main cannon
-Storm
- - flak effect
+ Kaiju
+  [ ] 2 main double cannons
+  [ ] 2 side double cannons smaller
+ Ares
+  [ ] main quad cannon
+  [ ] 3 secondary cannons
+ Storm
+  [ ] flak effect

@@ -1,7 +1,6 @@
 [
   {
-    "target": "/pa_ex1/units/land/bot_sniper/bot_sniper.json",
-    "destination": "/pa/units/land/bot_sniper/bot_sniper.json",
+    "target": "/pa/units/land/bot_sniper/bot_sniper.json",
     "patch": [
       {
         "op": "replace",
@@ -11,17 +10,16 @@
     ]
   },
   {
-    "target": "/pa_ex1/units/land/bot_sniper/bot_sniper_ammo.json",
-    "destination": "/pa/units/land/bot_sniper/bot_sniper_ammo.json",
+    "target": "/pa/units/land/bot_sniper/bot_sniper_ammo.json",
     "patch": [
-      {"op": "add", "path": "/fx_beam_spec", "value": "/mod/sniper/sniper_ammo_trail.pfx"},
-      {"op": "add", "path": "/fx_collision_spec", "value" : "/mod/sniper/sniper_ammo_hit.pfx"},
+      {"op": "replace", "path": "/fx_beam_spec", "value": "/mod/sniper/sniper_ammo_trail.pfx"},
+      {"op": "replace", "path": "/fx_collision_spec", "value" : "/mod/sniper/sniper_ammo_hit.pfx"},
 
       {"op": "add", "path": "/events", "value" : {
         "died": {
           "audio_cue": "/SE/Impacts/shell_bullet",
-          "effect_spec": "/mod/sniper/sniper_ammo_hit.pfx",
-          "effect_scale": 1.0
+          "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx",
+          "effect_scale": 3.0
         }
       }},
       {"op": "add", "path": "/fx_trail", "value" : {
@@ -198,32 +196,41 @@
       {"op": "scale", "path": "/emitters/2/velocity", "value": 1 },
 
       {"op": "add", "path" : "/emitters/-",  "value" : {
-        "spec": {
-          "shape": "pointlight",
-          "red": 1.2,
-          "green": 0.8,
-          "blue": 5,
-          "alpha": [
-            [
-              0,
-              0.05
-            ],
-            [
-              1,
-              0
-            ]
+      "spec": {
+        "shape": "pointlight",
+        "red": 1.2,
+        "green": 0.8,
+        "blue": 5,
+        "alpha": [
+          [
+            0,
+            0.05
+          ],
+          [
+            1,
+            0
           ]
-        },
-        "maxParticles" : 50,
-        "offsetZ" : 5,
-        "type" : "EMITTER",
-        "linkIndex" : 2,
-        "sizeX": 40,
-        "emissionBursts": 1,
-        "lifetime": 0.4,
-        "emitterLifetime": 10,
-        "endDistance": 2000
-      }},
+        ]
+      },
+      "maxParticles" : 50,
+      "offsetZ" : 5,
+      "type" : "EMITTER",
+      "linkIndex" : 2,
+      "sizeX": 40,
+      "emissionBursts": {
+        "count": 1,
+        "time": 0.06
+      },
+      "lifetime": 0.4,
+      "emitterLifetime": 10,
+      "endDistance": 2000
+    }}
+    ]
+  },
+  {
+    "target": "/mod/sniper/sniper_ammo_trail.pfx",
+    "destination": "/mod/sniper/sniper_ammo_trail.pfx",
+    "patch" : [
       {"op" : "copy", "path" : "/emitters/5", "from" : "/emitters/3"},
       {"op" : "copy", "path" : "/emitters/6", "from" : "/emitters/1"},
 
