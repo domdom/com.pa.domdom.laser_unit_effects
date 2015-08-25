@@ -171,6 +171,46 @@
         "emissionRate": [[0, 200], [1, 100], [1.2, 10], [2, 0]],
         "emitterLifetime": 2,
         "bLoop": false,
+        "endDistance": 2000
+      }},
+      {"op" : "add", "path" : "/emitters/-", "value" :     {
+        "spec": {
+          "shader": "particle_add",
+          "facing" : "EmitterZ",
+          "red": 1.0,
+          "green": 0.1,
+          "blue": 0.7,
+          "alpha": [[0, 0.7 ], [1, 0 ] ],
+          "sizeX": [[0, 0.875 ], [1, 1 ] ],
+          "cameraPush" : 0.02,
+          "baseTexture": "/pa/effects/textures/particles/soft_flare.papa"
+        },
+        "sizeX": 80,
+        "emissionBursts": 2,
+        "maxParticles": 3,
+        "rotationRange": 3.1416,
+        "lifetime": 2.1,
+        "bLoop": false,
+        "endDistance": 850
+      }},
+      {"op" : "add", "path" : "/emitters/-", "value" :     {
+        "spec": {
+          "shader": "particle_add",
+          "facing" : "EmitterZ",
+          "red": 0.1,
+          "green": 0.1,
+          "blue": 1.0,
+          "alpha": [[0, 0.7 ], [1, 0 ] ],
+          "sizeX": [[0, 0.875 ], [1, 1 ] ],
+          "cameraPush" : 0.02,
+          "baseTexture": "/pa/effects/textures/particles/soft_flare.papa"
+        },
+        "sizeX": 90,
+        "emissionBursts": 2,
+        "maxParticles": 3,
+        "rotationRange": 3.1416,
+        "lifetime": 2.1,
+        "bLoop": false,
         "endDistance": 850
       }}
     ]
