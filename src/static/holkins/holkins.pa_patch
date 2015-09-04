@@ -69,12 +69,15 @@
       {"op" : "scale", "path" : "/emitters/5/emissionBursts", "value" : 2},
       {"op" : "add", "path" : "/emitters/5/delay", "value" : 0.0},
 
+      {"op" : "scale", "path" : "/emitters/6/sizeX", "value" : 1.5},
+      {"op" : "scale", "path" : "/emitters/7/sizeX", "value" : 1.5},
+      {"op" : "scale", "path" : "/emitters/8/sizeX", "value" : 1.5},
 
       {"op" : "replace", "path" : "/emitters/2/spec/red",   "value" : 3.0},
       {"op" : "replace", "path" : "/emitters/2/spec/green", "value" : 0.4},
       {"op" : "replace", "path" : "/emitters/2/spec/blue",  "value" : 6.0},
 
-      {"op" : "replace", "path" : "/emitters/3/spec/red",   "value" : 0.5},
+      {"op" : "replace", "path" : "/emitters/3/spec/red",   "value" : 0.5}  ,
       {"op" : "replace", "path" : "/emitters/3/spec/green", "value" : 0.5},
       {"op" : "replace", "path" : "/emitters/3/spec/blue",  "value" : 6.0},
 
@@ -163,13 +166,14 @@
         "velocityRangeZ": 1,
         "velocityRangeY": 1,
         "sizeX": 3,
+        "sizeY": [[0, 3], [2, 0.5]],
         "sizeRangeX": 1,
         "sizeY": [[0, 23], [2, 4]],
         "sizeRangeY": [[0, 10], [2, 2]],
-        "lifetime": 0.3,
+        "lifetime": 0.4,
         "lifetimeRange": 0.125,
-        "emissionRate": [[0, 200], [1, 100], [1.2, 10], [2, 0]],
-        "emitterLifetime": 2,
+        "emissionRate": [[0, 250], [1, 100], [1.2, 80], [3, 0]],
+        "emitterLifetime": 3,
         "bLoop": false,
         "endDistance": 2000
       }},
@@ -212,6 +216,88 @@
         "lifetime": 2.1,
         "bLoop": false,
         "endDistance": 850
+      }},
+      {"op" : "add", "path" : "/emitters/-", "value" : {
+        "spec": {
+          "label": "SMOKE DOME",
+          "shader": "particle_transparent_lit",
+          "size": [[0, 0.7 ], [0.1, 1 ], [0.25, 1.2 ], [0.35, 1.15 ], [0.45, 0.98 ], [1, 0.8 ] ],
+
+          "rgb": [[0.0, 4, [255, 10, 255, 50 ] ], [1, 1, [100, 50, 100, 0 ] ] ],
+
+          "rotationRateMult": [[0, 1 ], [1, 0.2 ] ],
+          "cameraPush": 0.5,
+          "baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa",
+          "dataChannelFormat": "PositionAndColor"
+        },
+        "type": "SHELL",
+        "offsetZ": 1,
+        "offsetRangeX": 8,
+        "offsetRangeY": 8,
+        "offsetRangeZ": 4,
+        "offsetAllowNegZ": false,
+        "velocityZ": 0.25,
+        "velocityRangeX": 0.1,
+        "velocityRangeY": 0.1,
+        "useRadialVelocityDir": true,
+        "velocity": 3,
+        "velocityRange": 2,
+        "sizeX": 10,
+        "sizeRangeX": 2,
+        "gravity": -1.5,
+        "rampV": 0.5,
+        "rampRangeV": 0.5,
+        "drag": 0.99,
+        "delay": 0.6,
+        "emissionBursts": 12,
+        "rotationRange": 0.1,
+        "rotationRateRange": 0.25,
+        "lifetime": 4.0,
+        "lifetimeRange": 0.25,
+        "emitterLifetime": 2,
+        "bLoop": false,
+        "endDistance": 2500
+      }},
+      {"op" : "add", "path" : "/emitters/-", "value" : {
+
+        "spec": {
+          "label": "SMOKE RING",
+          "shader": "particle_transparent_lit",
+          "size": [[0, 0 ], [0.05, 1 ], [0.15, 1.15 ], [0.25, 1.2 ], [0.35, 1.15 ], [0.45, 0.98 ], [1, 0.8 ] ],
+          "rgb": [[0.0, 100, [1, 10, 100, 130 ] ], [1, 1, [1, 10, 100, 0 ] ] ],
+          "rotationRateMult": [[0, 1 ], [1, 0.2 ] ],
+          "cameraPush": 0.5,
+          "baseTexture": "/pa/effects/textures/particles/simpleSmoke.papa",
+          "dataChannelFormat": "PositionAndColor"
+        },
+        "type": "CYLINDER_Z",
+        "offsetX": 8,
+        "offsetY": 8,
+        "offsetZ": 1,
+        "offsetRangeX": 1,
+        "offsetRangeY": 1,
+        "offsetAllowNegZ": false,
+        "velocityZ": -0.0,
+        "velocityRangeX": 0.1,
+        "velocityRangeY": 0.1,
+        "useRadialVelocityDir": true,
+        "velocity": 15,
+        "sizeX": 8,
+        "sizeRangeX": 2,
+        "gravity": -0.5,
+        "rampV": 0.875,
+        "drag": 0.985,
+        "delay": 0.2,
+        "emissionBursts": {
+          "count": 25
+        },
+        "rotationRange": 0.1,
+        "rotationRateRange": 0.25,
+        "lifetime": 4.0,
+        "lifetimeRange": 0.25,
+        "emitterLifetime": 2,
+        "bLoop": false,
+        "endDistance": 2500
       }}
     ]
   },

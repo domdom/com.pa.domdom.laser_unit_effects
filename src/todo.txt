@@ -1,11 +1,14 @@
 DONE:
- Drifter
-  [x] Main cannon
-
-TODO:
+ Anti Air Missiles
+  [x] Slightly longer projectile trails
+ Tac Missiles
+  [x] Make Pink because of damage rating
  Kaiju
-  [ ] 2 main double cannons
-  [ ] 2 side double cannons smaller
+  [x] 2 main double cannons
+  [x] 2 side double cannons smaller
+TODO:
+ Catapult
+  [ ] Smoke cloud on launch should be pink too
  Ares
   [ ] main quad cannon
   [ ] 3 secondary cannons

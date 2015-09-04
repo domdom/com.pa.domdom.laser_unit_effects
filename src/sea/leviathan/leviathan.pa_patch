@@ -1,5 +1,6 @@
 [
  {
+    "target": "/pa_ex1/units/sea/battleship/battleship_ammo.json",
     "target": "/pa/units/sea/battleship/battleship_ammo.json",
     "patch": [
       {"op": "add", "path": "/events", "value": {
@@ -15,7 +16,7 @@
       }}
     ]
   },
-{
+  {
     "target": "/base_ammo_trail.pfx",
     "destination": "/mod/leviathan/leviathan_ammo_trail.pfx",
     "patch": [
