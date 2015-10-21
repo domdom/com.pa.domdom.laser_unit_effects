@@ -1,6 +1,6 @@
 {
   "options" : {
-    "debug_mode" : true,
+    "debug_mode" : false,
     "prefer_ex1" : true,
     "output_dir" : "..",
     "pretty_print_effects" : true,
@@ -15,7 +15,7 @@
     "forum" : "https://forums.uberent.com/threads/rel-client-more-pew-pew.69229/",
     "icon" : "http://i.imgur.com/PQOpc3u.gif",
     "product" : ["Titans"],
-    "version" : "1.2.0",
+    "version" : "1.2.1",
     "priority": 95
   },
   "mod" : [
