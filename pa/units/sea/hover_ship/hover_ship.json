@@ -122,12 +122,12 @@
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/sea/hover_small_fire",
-      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle03 /pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle03",
+      "effect_spec": "/mod/kaiju/kaiju_muzzle_flash_side.pfx socket_rightMuzzle03 /mod/kaiju/kaiju_muzzle_flash_side.pfx socket_leftMuzzle03",
       "effect_scale": 1.0
     },
     "fired3": {
       "audio_cue": "/SE/Weapons/sea/hover_small_fire",
-      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle04 /pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle04",
+      "effect_spec": "/mod/kaiju/kaiju_muzzle_flash_side.pfx socket_rightMuzzle04 /mod/kaiju/kaiju_muzzle_flash_side.pfx socket_leftMuzzle04",
       "effect_scale": 1.0
     },
     "died": {

@@ -4,11 +4,11 @@
   "splash_damage": 200,
   "splash_radius": 7,
   "full_damage_splash_radius": 2,
-  "initial_velocity": 110.0,
-  "max_velocity": 110.0,
+  "initial_velocity": 150.0,
+  "max_velocity": 150.0,
   "splash_damages_allies": false,
   "influence_radius": 900,
-  "lifetime": 4,
+  "lifetime": 3.5,
   "audio_loop": "/SE/Movement/missile/battleship_fly_loop",
   "model": {
     "filename": "/pa/units/air/shell/shell.papa"
@@ -25,7 +25,13 @@
     "died": {
       "audio_cue": "/SE/Impacts/missile_battleship",
       "effect_spec": "/mod/leviathan/leviathan_ammo_hit.pfx",
-      "effect_scale": 0.9
+      "effect_scale": 0.7
     }
+  },
+  "physics": {
+    "radius": 1,
+    "gravity_scalar": 7,
+    "add_to_spatial_db": false,
+    "allow_underground": true
   }
 }

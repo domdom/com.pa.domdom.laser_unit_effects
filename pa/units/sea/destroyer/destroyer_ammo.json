@@ -3,9 +3,9 @@
   "damage": 50,
   "splash_damage": 0,
   "splash_radius": 0,
-  "initial_velocity": 85.0,
-  "max_velocity": 85.0,
-  "lifetime": 3,
+  "initial_velocity": 170.0,
+  "max_velocity": 170.0,
+  "lifetime": 2,
   "fx_trail": {
     "filename": "/mod/orca/orca_ammo_trail.pfx",
     "offset": [
@@ -20,5 +20,11 @@
       "effect_spec": "/mod/orca/orca_ammo_hit.pfx",
       "effect_scale": 0.2
     }
+  },
+  "physics": {
+    "radius": 1,
+    "gravity_scalar": 7,
+    "add_to_spatial_db": false,
+    "allow_underground": true
   }
 }
