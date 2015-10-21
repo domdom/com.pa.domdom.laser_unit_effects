@@ -1,0 +1,9 @@
+[
+  {
+    "target" : "/pa/effects/specs/uber_proj_trail.pfx",
+    "destination" : "/mod/commander/uber_trail.pfx",
+    "patch" : [
+    	
+    ]
+  }
+]

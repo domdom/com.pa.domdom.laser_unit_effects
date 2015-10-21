@@ -3,7 +3,7 @@
   "display_name": "!LOC:Slammer",
   "description": "!LOC:Assault Bot- Well-armored. High damage guns and torpedoes. Amphibious. Attacks land and sea.",
   "max_health": 400,
-  "build_metal_cost": 600,
+  "build_metal_cost": 450,
   "attachable": {
     "offsets": {
       "root": [
@@ -33,9 +33,9 @@
   "guard_layer": "WL_AnySurface",
   "navigation": {
     "type": "amphibious",
-    "acceleration": 120,
+    "acceleration": 140,
     "brake": -1,
-    "move_speed": 12,
+    "move_speed": 14,
     "turn_speed": 720
   },
   "physics": {
@@ -96,7 +96,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/bot/assault_adv_fire",
-      "effect_spec": "/mod/slammer/slammer_muzzle_flash.json socket_rightMuzzle /mod/slammer/slammer_muzzle_flash.json socket_leftMuzzle"
+      "effect_spec": "/mod/slammer/slammer_muzzle_flash.pfx socket_rightMuzzle /mod/slammer/slammer_muzzle_flash.pfx socket_leftMuzzle"
     },
     "died": {
       "audio_cue": "/SE/Death/Bot",

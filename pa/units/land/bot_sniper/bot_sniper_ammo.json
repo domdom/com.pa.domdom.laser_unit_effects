@@ -20,7 +20,6 @@
   },
   "physics": {
     "radius": 1,
-    "push_class": 1,
     "gravity_scalar": 120,
     "add_to_spatial_db": false,
     "allow_underground": true

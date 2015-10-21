@@ -1,4 +1,8 @@
 DONE:
+ Muzzle Sparks:
+  [x] Sheller
+  [x] Pelter
+  [x] Holkins
  Anti Air Missiles
   [x] Slightly longer projectile trails
  Tac Missiles
@@ -6,11 +10,24 @@ DONE:
  Kaiju
   [x] 2 main double cannons
   [x] 2 side double cannons smaller
-TODO:
+ Naval Units (muzzle flashes):
+  [x] Orca
+  [x] Narwhal
+  [x] Pirahna
+  [x] Leviathan
+  [x] Kaiju
  Catapult
-  [ ] Smoke cloud on launch should be pink too
+  [x] Smoke cloud on launch should be pink too
  Ares
-  [ ] main quad cannon
-  [ ] 3 secondary cannons
+  [x] main quad cannon
+  [x] 3 secondary cannons
+  [x] Hover effect colors
+TODO:
+ Commander:
+  [ ] Commander Uber cannon
+ Colonel:
+  [ ] Main gun needs to be unique
  Storm
-  [ ] flak effect
+  [?] flak effect
+ Carrier Ship:
+  [?] Squall air trails
