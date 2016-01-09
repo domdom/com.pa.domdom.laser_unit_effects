@@ -9,8 +9,12 @@
     "product": [
         "Titans"
     ],
+    "category": [
+        "in-game",
+        "effects"
+    ],
     "version": "1.2.3",
     "priority": 95,
-    "build": "89528",
-    "date": "2015/10/21"
+    "build": "89755",
+    "date": "2016/01/09"
 }
