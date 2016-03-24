@@ -57,6 +57,9 @@
     { "from_file" :   "/sea/leviathan/leviathan.pa_patch" },
     { "from_file" :   "/sea/kraken/kraken.pa_patch" },
     { "from_file" :   "/sea/kaiju/kaiju.pa_patch" },
-    { "from_file" :   "/sea/orca/orca.pa_patch" }
+    { "from_file" :   "/sea/orca/orca.pa_patch" },
+
+
+    // { "from_script" : "/.py" }
   ]
 }

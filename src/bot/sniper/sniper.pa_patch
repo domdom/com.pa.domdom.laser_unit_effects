@@ -1,7 +1,6 @@
 [
   {
-    "target": "/pa_ex1/units/land/bot_sniper/bot_sniper.json",
-    "destination": "/pa/units/land/bot_sniper/bot_sniper.json",
+    "target": "/pa/units/land/bot_sniper/bot_sniper.json",
     "patch": [
       {
         "op": "replace",
@@ -11,8 +10,7 @@
     ]
   },
   {
-    "target": "/pa_ex1/units/land/bot_sniper/bot_sniper_ammo.json",
-    "destination": "/pa/units/land/bot_sniper/bot_sniper_ammo.json",
+    "target": "/pa/units/land/bot_sniper/bot_sniper_ammo.json",
     "patch": [
       {"op": "add", "path": "/fx_beam_spec", "value": "/mod/sniper/sniper_ammo_trail.pfx"},
       {"op": "add", "path": "/fx_collision_spec", "value" : "/mod/sniper/sniper_ammo_hit.pfx"},
@@ -231,7 +229,7 @@
       {"op" : "remove", "path" : "/emitters/5/emissionBursts"},
 
       {"op" : "add", "path" : "/emitters/5/useWorldSpace", "value" : true},
-      {"op" : "add", "path" : "/emitters/5/emissionRate", "value" : 60},
+      {"op" : "add", "path" : "/emitters/5/emissionRate", "value" : 100},
       {"op" : "scale", "path" : "/emitters/5/sizeX", "value" : 3},
 
       {"op" : "remove", "path" : "/emitters/5/maxParticles"},
@@ -240,7 +238,7 @@
       {"op" : "remove", "path" : "/emitters/6/emissionBursts"},
 
       {"op" : "add", "path" : "/emitters/6/useWorldSpace", "value" : true},
-      {"op" : "add", "path" : "/emitters/6/emissionRate", "value" : 60},
+      {"op" : "add", "path" : "/emitters/6/emissionRate", "value" : 100},
       {"op" : "scale", "path" : "/emitters/6/sizeX", "value" : 0.6},
 
       {"op" : "remove", "path" : "/emitters/6/maxParticles"}

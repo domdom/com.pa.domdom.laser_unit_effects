@@ -145,7 +145,7 @@
           "emitterLifetime": 0.5,
           "useWorldSpace" : true,
           "bLoop": false,
-          "endDistance": 850
+          "endDistance": 400
         }
       },
       {"op" : "add", "path" : "/emitters/-", "value" :  {
@@ -175,7 +175,7 @@
           "emissionBursts": 60,
           "useWorldSpace": true,
           "bLoop": false,
-          "endDistance": 3000
+          "endDistance": 400
         }
       }
     ]

@@ -78,7 +78,7 @@
           "emitterLifetime": 0.5,
           "useWorldSpace" : true,
           "bLoop": false,
-          "endDistance": 850
+          "endDistance": 400
         }
       },
       {"op" : "add", "path" : "/emitters/-", "value" :  {
@@ -108,7 +108,7 @@
           "emissionBursts": 20,
           "useWorldSpace": true,
           "bLoop": false,
-          "endDistance": 3000
+          "endDistance": 400
         }
       }
     ]
@@ -303,7 +303,7 @@
           "emitterLifetime": 0.5,
           "useWorldSpace" : true,
           "bLoop": false,
-          "endDistance": 850
+          "endDistance": 400
         }
       },
       {"op" : "copy", "path" : "/emitters/-", "from" : "/emitters/19"},
@@ -337,7 +337,7 @@
           "emissionBursts": 15,
           "useWorldSpace": true,
           "bLoop": false,
-          "endDistance": 3000
+          "endDistance": 400
         }
       },
       {"op" : "copy", "path" : "/emitters/-", "from" : "/emitters/23"},

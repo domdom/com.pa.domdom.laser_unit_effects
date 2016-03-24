@@ -1,4 +1,5 @@
 DONE:
+  [x] - General optimisation
  Muzzle Sparks:
   [x] Sheller
   [x] Pelter
@@ -22,6 +23,7 @@ DONE:
   [x] main quad cannon
   [x] 3 secondary cannons
   [x] Hover effect colors
+  
 TODO:
  Commander:
   [ ] Commander Uber cannon
