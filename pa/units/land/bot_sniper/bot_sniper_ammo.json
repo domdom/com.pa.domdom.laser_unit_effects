@@ -11,12 +11,12 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/shell_bullet",
-      "effect_spec": "/mod/sniper/sniper_ammo_hit.pfx",
+      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_hit.pfx",
       "effect_scale": 1.0
     }
   },
   "fx_trail": {
-    "filename": "/mod/sniper/sniper_ammo_trail.pfx"
+    "filename": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_trail.pfx"
   },
   "physics": {
     "radius": 1,
@@ -24,6 +24,6 @@
     "add_to_spatial_db": false,
     "allow_underground": true
   },
-  "fx_beam_spec": "/mod/sniper/sniper_ammo_trail.pfx",
-  "fx_collision_spec": "/mod/sniper/sniper_ammo_hit.pfx"
+  "fx_beam_spec": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_trail.pfx",
+  "fx_collision_spec": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_hit.pfx"
 }

@@ -9,7 +9,7 @@
   "max_velocity": 170.0,
   "lifetime": 2,
   "fx_trail": {
-    "filename": "/mod/kaiju/kaiju_ammo_trail.pfx",
+    "filename": "/mod/com.pa.domdom.laser_unit_effects/kaiju/kaiju_ammo_trail.pfx",
     "offset": [
       0.0,
       0.0,
@@ -18,7 +18,7 @@
   },
   "events": {
     "died": {
-      "effect_spec": "/mod/kaiju/kaiju_ammo_hit.pfx",
+      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/kaiju/kaiju_ammo_hit.pfx",
       "effect_scale": 0.5
     }
   },

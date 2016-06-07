@@ -179,19 +179,19 @@
     },
     "fired0": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
-      "effect_spec": "/mod/ares/ares_muzzle_flash.pfx bone_main_recoil"
+      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_muzzle_flash.pfx bone_main_recoil"
     },
     "fired1": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
-      "effect_spec": "/mod/ares/ares_muzzle_flash_side.pfx socket_left_muzzle01 /mod/ares/ares_muzzle_flash_side.pfx socket_left_muzzle02"
+      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_muzzle_flash_side.pfx socket_left_muzzle01 /mod/com.pa.domdom.laser_unit_effects/ares/ares_muzzle_flash_side.pfx socket_left_muzzle02"
     },
     "fired2": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
-      "effect_spec": "/mod/ares/ares_muzzle_flash_side.pfx socket_right_muzzle01 /mod/ares/ares_muzzle_flash_side.pfx socket_right_muzzle02"
+      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_muzzle_flash_side.pfx socket_right_muzzle01 /mod/com.pa.domdom.laser_unit_effects/ares/ares_muzzle_flash_side.pfx socket_right_muzzle02"
     },
     "fired3": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire",
-      "effect_spec": "/mod/ares/ares_muzzle_flash_side.pfx socket_rear_muzzle01 /mod/ares/ares_muzzle_flash_side.pfx socket_rear_muzzle02"
+      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_muzzle_flash_side.pfx socket_rear_muzzle01 /mod/com.pa.domdom.laser_unit_effects/ares/ares_muzzle_flash_side.pfx socket_rear_muzzle02"
     },
     "died": {
       "audio_cue": "",

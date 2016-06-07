@@ -5,15 +5,15 @@
       {
         "op": "replace",
         "path": "/events/fired0/effect_spec",
-        "value": "/mod/sniper/sniper_muzzle_flash.pfx socket_muzzle01"
+        "value": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_muzzle_flash.pfx socket_muzzle01"
       }
     ]
   },
   {
     "target": "/pa/units/land/bot_sniper/bot_sniper_ammo.json",
     "patch": [
-      {"op": "replace", "path": "/fx_beam_spec", "value": "/mod/sniper/sniper_ammo_trail.pfx"},
-      {"op": "replace", "path": "/fx_collision_spec", "value" : "/mod/sniper/sniper_ammo_hit.pfx"},
+      {"op": "replace", "path": "/fx_beam_spec", "value": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_trail.pfx"},
+      {"op": "replace", "path": "/fx_collision_spec", "value" : "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_hit.pfx"},
 
       {"op": "add", "path": "/events", "value" : {
         "died": {
@@ -23,13 +23,13 @@
         }
       }},
       {"op": "add", "path": "/fx_trail", "value" : {
-        "filename": "/mod/sniper/sniper_ammo_trail.pfx"
+        "filename": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_trail.pfx"
       }}
     ]
   },
   {
       "target": "/pa/effects/specs/default_muzzle_flash.pfx",
-      "destination" : "/mod/sniper/sniper_muzzle_flash.pfx",
+      "destination" : "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_muzzle_flash.pfx",
       "patch" : [
           {"op" : "replace", "path" : "/emitters/0/spec/red",     "value" : [[0.3, 0.1], [1, 0.10]]},
           {"op" : "replace", "path" : "/emitters/0/spec/green",   "value" : [[0.3, 0.9], [1, 0.30]]},
@@ -115,7 +115,7 @@
   },
   {
     "target": "/base_ammo_hit.pfx",
-    "destination": "/mod/sniper/sniper_ammo_hit.pfx",
+    "destination": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_hit.pfx",
     "patch": [
       {"op": "replace", "path": "/emitters/0/spec/red", "value": 1.2 },
       {"op": "replace", "path": "/emitters/0/spec/green", "value": 0.8 },
@@ -166,7 +166,7 @@
   },
   {
     "target": "/pa/units/land/bot_sniper/bot_sniper_ammo_beam.pfx",
-    "destination": "/mod/sniper/sniper_ammo_trail.pfx",
+    "destination": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_trail.pfx",
     "patch": [
       {"op": "replace", "path": "/emitters/0/spec/red", "value": 0.4 },
       {"op": "replace", "path": "/emitters/0/spec/green", "value": 0.8 },
@@ -228,8 +228,8 @@
     ]
   },
   {
-    "target": "/mod/sniper/sniper_ammo_trail.pfx",
-    "destination": "/mod/sniper/sniper_ammo_trail.pfx",
+    "target": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_trail.pfx",
+    "destination": "/mod/com.pa.domdom.laser_unit_effects/sniper/sniper_ammo_trail.pfx",
     "patch" : [
       {"op" : "copy", "path" : "/emitters/5", "from" : "/emitters/3"},
       {"op" : "copy", "path" : "/emitters/6", "from" : "/emitters/1"},

@@ -36,7 +36,7 @@
   ],
   "events": {
     "died": {
-      "effect_spec": "/mod/kraken/missile_ammo_hit.pfx",
+      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/kraken/missile_ammo_hit.pfx",
       "effect_scale": 1.3
     }
   },
@@ -44,6 +44,6 @@
     "filename": "/pa/units/air/atoa_missile/atoa_missile.papa"
   },
   "fx_trail": {
-    "filename": "/mod/kraken/missile_ammo_trail.pfx"
+    "filename": "/mod/com.pa.domdom.laser_unit_effects/kraken/missile_ammo_trail.pfx"
   }
 }
