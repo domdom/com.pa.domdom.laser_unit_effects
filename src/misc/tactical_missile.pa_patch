@@ -10,7 +10,7 @@
 			{"op" : "replace", "path" : "/emitters/1/spec/green", "value" : 1},
 			{"op" : "replace", "path" : "/emitters/1/spec/blue", "value" : 5},
 
-			{"op" : "replace", "path" : "/emitters/2/spec/red", "value" : 5},
+			{"op" : "replace", "path" : "/emitters/1/spec/red", "value" : 5},
 			{"op" : "replace", "path" : "/emitters/2/spec/green", "value" : 1},
 			{"op" : "replace", "path" : "/emitters/2/spec/blue", "value" : 5},
 
@@ -40,9 +40,16 @@
 			{"op" : "replace", "path" : "/emitters/1/spec/green", "value" : 1},
 			{"op" : "replace", "path" : "/emitters/1/spec/blue", "value" : 5},
 
-			{"op" : "replace", "path" : "/emitters/2/spec/red", "value" : 2},
+			{"op" : "replace", "path" : "/emitters/1/spec/red", "value" : 2},
 			{"op" : "replace", "path" : "/emitters/2/spec/green", "value" : 1},
 			{"op" : "replace", "path" : "/emitters/2/spec/blue", "value" : 5},
+
+			{"op" : "replace", "path" : "/emitters/3/spec/shader", "value" : "particle_transparent"},
+			{"op" : "replace", "path" : "/emitters/3/emissionRate", "value" : 40},
+			{"op" : "replace", "path" : "/emitters/3/lifetime", "value" : 0.7},
+			{"op" : "replace", "path" : "/emitters/3/sizeX", "value" : 1.2},
+			{"op" : "replace", "path" : "/emitters/3/spec/baseTexture", "value" : "/pa/effects/textures/particles/simpleSmoke.papa"},
+			{"op" : "remove", "path" : "/emitters/3/inheritedVelocity"},
 
 			{"op" : "scale", "path" : "/emitters/1/sizeX", "value" : 1.6},
 			{"op" : "scale", "path" : "/emitters/2/sizeX", "value" : 1.6},
