@@ -33,16 +33,16 @@
         {
           "died": {
             "audio_cue": "/SE/Impacts/laser_blast",
-            "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/laser/t1_ammo_hit.pfx"
+            "effect_spec": "//pa/units/land/laser_defense_single/laser_defense_single_ammo_hit.pfx"
           }
         }
       },
-      {"op": "replace", "path": "/fx_trail/filename", "value": "/mod/com.pa.domdom.laser_unit_effects/laser/t1_ammo_trail.pfx"}
+      {"op": "replace", "path": "/fx_trail/filename", "value": "//pa/units/land/laser_defense_single/laser_defense_single_ammo_trail.pfx"}
     ]
   },
   {
     "target": "/base_ammo_hit.pfx",
-    "destination": "/mod/com.pa.domdom.laser_unit_effects/laser/t1_ammo_hit.pfx",
+    "destination": "//pa/units/land/laser_defense_single/laser_defense_single_ammo_hit.pfx",
     "patch": [
       {"op": "replace", "path": "/emitters/0/spec/red", "value": 1.0 },
       {"op": "replace", "path": "/emitters/0/spec/green", "value": 0.05 },
@@ -61,7 +61,7 @@
   },
   {
     "target": "/pa/units/land/laser_defense_single/laser_defense_single_ammo_trail.pfx",
-    "destination": "/mod/com.pa.domdom.laser_unit_effects/laser/t1_ammo_trail.pfx",
+    "destination": "//pa/units/land/laser_defense_single/laser_defense_single_ammo_trail.pfx",
     "patch": [
       {"op" : "add", "path" : "/emitters/0", "value" : 
         {
