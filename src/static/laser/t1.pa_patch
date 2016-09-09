@@ -42,7 +42,7 @@
   },
   {
     "target": "/base_ammo_hit.pfx",
-    "destination": "//pa/units/land/laser_defense_single/laser_defense_single_ammo_hit.pfx",
+    "destination": "/pa/units/land/laser_defense_single/laser_defense_single_ammo_hit.pfx",
     "patch": [
       {"op": "replace", "path": "/emitters/0/spec/red", "value": 1.0 },
       {"op": "replace", "path": "/emitters/0/spec/green", "value": 0.05 },
