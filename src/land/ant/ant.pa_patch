@@ -11,7 +11,7 @@
     ]
   },
   {
-    "target": "/land/ant/top_burst_flash.pfx",
+    "target": "/land/ant/burst_flash.pfx",
     "destination": "/mod/com.pa.domdom.laser_unit_effects/ant/burst_flash.pfx",
     "patch" : [
       {"op": "add", "path": "/emitters/0/red", "value" : 0.1 },
