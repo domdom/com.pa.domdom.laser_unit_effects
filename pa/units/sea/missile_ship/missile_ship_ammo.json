@@ -36,12 +36,12 @@
   ],
   "events": {
     "died": {
-      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/tac/tac_ammo_hit.pfx",
+      "effect_spec": "/pa/units/sea/missile_ship/missile_ship_ammo_hit.pfx",
       "effect_scale": 0.4
     }
   },
   "audio_loop": "/SE/Movement/missile/missileship_fly_loop",
   "fx_trail": {
-    "filename": "/mod/com.pa.domdom.laser_unit_effects/sea/missile_ship_ammo_trail.pfx"
+    "filename": "/pa/units/sea/missile_ship/missile_ship_ammo_trail.pfx"
   }
 }
