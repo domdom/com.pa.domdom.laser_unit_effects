@@ -9,8 +9,7 @@
   "lifetime": 3,
   "events": {
     "died": {
-      "effect_spec": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_side_hit.pfx",
-      "effect_scale": 0.7
+      "effect_spec": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_side_hit.pfx"
     }
   },
   "physics": {

@@ -27,8 +27,7 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/missile_artillery_short",
-      "effect_spec": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_main_hit.pfx",
-      "effect_scale": 0.7
+      "effect_spec": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_main_hit.pfx"
     }
   }
 }
