@@ -16,19 +16,13 @@
     "filename": "/pa/units/air/shell_large/shell_large.papa"
   },
   "fx_trail": {
-    "filename": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_ammo_main_trail.pfx",
-    "offset": [
-      0.0,
-      1.0,
-      0.0
-    ]
+    "filename": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_main_trail.pfx"
   },
   "audio_loop": "/SE/Movement/missile/artillery_long_missile_fly_loop",
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/missile_artillery_short",
-      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_ammo_main_hit.pfx",
-      "effect_scale": 0.7
+      "effect_spec": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_main_hit.pfx"
     }
   }
 }

@@ -146,7 +146,7 @@
   },
   "events": {
     "fired": {
-      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/commander/commander_muzzle_flash.pfx socket_rightMuzzle"
+      "effect_spec": "/pa/units/commanders/base_commander/base_commander_muzzle_flash.pfx socket_rightMuzzle"
     },
     "teleported": {
       "audio_cue": "/SE/Death/Veh",

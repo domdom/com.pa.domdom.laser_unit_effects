@@ -12,8 +12,7 @@
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/missile_catapult",
-      "effect_spec": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_hit.pfx",
-      "effect_scale": 0.2
+      "effect_spec": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_hit.pfx"
     }
   },
   "audio_loop": "/SE/Movement/missile/catapult_missile_fly_loop",
@@ -49,6 +48,11 @@
     }
   ],
   "fx_trail": {
+    "offset": [
+      0.0,
+      2.2,
+      0.0
+    ],
     "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_trail.pfx"
   }
 }

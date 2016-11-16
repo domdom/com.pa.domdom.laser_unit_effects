@@ -75,7 +75,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_hover_fire",
-      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/drifter/drifter_muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land/tank_hover/tank_hover_muzzle_flash.pfx socket_muzzle"
     },
     "died": {
       "audio_cue": "/SE/Death/Veh"

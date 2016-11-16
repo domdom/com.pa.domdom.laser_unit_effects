@@ -9,8 +9,7 @@
   "lifetime": 3,
   "events": {
     "died": {
-      "effect_spec": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_ammo_side_hit.pfx",
-      "effect_scale": 0.7
+      "effect_spec": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_side_hit.pfx"
     }
   },
   "physics": {
@@ -20,6 +19,11 @@
     "allow_underground": true
   },
   "fx_trail": {
-    "filename": "/mod/com.pa.domdom.laser_unit_effects/ares/ares_ammo_side_trail.pfx"
+    "offset": [
+      0.0,
+      0.8,
+      0.0
+    ],
+    "filename": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_side_trail.pfx"
   }
 }
