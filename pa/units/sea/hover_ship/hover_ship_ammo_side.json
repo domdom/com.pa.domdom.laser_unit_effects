@@ -8,12 +8,7 @@
   "lifetime": 1.0,
   "model": null,
   "fx_trail": {
-    "filename": "/pa/units/sea/hover_ship/hover_ship_ammo_side_trail.pfx",
-    "offset": [
-      0.0,
-      0.0,
-      0.0
-    ]
+    "filename": "/pa/units/sea/hover_ship/hover_ship_ammo_side_trail.pfx"
   },
   "events": {
     "died": {

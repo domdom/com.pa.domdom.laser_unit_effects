@@ -48,6 +48,11 @@
     }
   ],
   "fx_trail": {
+    "offset": [
+      0.0,
+      2.2,
+      0.0
+    ],
     "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_trail.pfx"
   }
 }
