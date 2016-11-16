@@ -15,6 +15,11 @@
     }
   },
   "fx_trail": {
+    "offset": [
+      0.0,
+      0.8,
+      0.0
+    ],
     "filename": "/pa/units/land/bot_sniper/bot_sniper_ammo_trail.pfx"
   },
   "physics": {
