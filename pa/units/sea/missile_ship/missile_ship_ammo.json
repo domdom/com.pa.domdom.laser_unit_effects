@@ -41,11 +41,6 @@
   },
   "audio_loop": "/SE/Movement/missile/missileship_fly_loop",
   "fx_trail": {
-    "offset": [
-      0.0,
-      2.2,
-      0.0
-    ],
     "filename": "/pa/units/sea/missile_ship/missile_ship_ammo_trail.pfx"
   }
 }
