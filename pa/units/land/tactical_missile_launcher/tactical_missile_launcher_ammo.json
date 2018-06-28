@@ -17,6 +17,9 @@
   },
   "audio_loop": "/SE/Movement/missile/catapult_missile_fly_loop",
   "physics": {
+    "radius": 1,
+    "gravity_scalar": 5,
+    "ignore_gravity": true,
     "add_to_spatial_db": true
   },
   "flight_type": "Staged",
@@ -45,6 +48,11 @@
     }
   ],
   "fx_trail": {
+    "offset": [
+      0.0,
+      2.2,
+      0.0
+    ],
     "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_trail.pfx"
   }
 }

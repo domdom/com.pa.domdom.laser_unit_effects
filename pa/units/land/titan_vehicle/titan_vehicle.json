@@ -7,6 +7,7 @@
   "armor_type": "AT_Hover",
   "atrophy_rate": 200.0,
   "atrophy_cool_down": 15.0,
+  "wreckage_health_frac": 0.7,
   "has_death_effects": true,
   "attachable": {
     "offsets": {
@@ -49,6 +50,8 @@
     "turn_speed": 30,
     "turn_accel": 15,
     "park_stamp": {
+      "shape": "sphere",
+      "cost": 10,
       "type_data": [
         {
           "move_type": "land-small",
@@ -199,7 +202,10 @@
   "audio": {
     "loops": {
       "move": {
-        "cue": "/SE/Movement/titan/hover_tank_titan_loop"
+        "cue": "/SE/Movement/titan/hover_tank_titan_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
       }
     },
     "selection_response": {

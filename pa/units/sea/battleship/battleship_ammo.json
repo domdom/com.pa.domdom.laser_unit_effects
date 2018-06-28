@@ -23,6 +23,9 @@
     }
   },
   "physics": {
-    "gravity_scalar": 7
+    "radius": 1,
+    "gravity_scalar": 7,
+    "add_to_spatial_db": false,
+    "allow_underground": true
   }
 }

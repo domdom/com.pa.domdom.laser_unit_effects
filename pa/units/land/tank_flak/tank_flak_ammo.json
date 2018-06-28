@@ -23,8 +23,10 @@
   },
   "audio_loop": "/SE/Movement/missile/catapult_missile_fly_loop",
   "physics": {
+    "radius": 1,
     "gravity_scalar": 5,
-    "ignore_gravity": true
+    "ignore_gravity": true,
+    "add_to_spatial_db": false
   },
   "flight_type": "Staged",
   "stages": [

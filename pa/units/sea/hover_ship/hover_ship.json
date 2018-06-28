@@ -31,6 +31,7 @@
     "park_stamp_cost": 20
   },
   "physics": {
+    "shape": "sphere",
     "radius": 3
   },
   "recon": {
@@ -106,6 +107,9 @@
     }
   ],
   "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/sea"
+    },
     "fired0": {
       "audio_cue": "/SE/Weapons/sea/hover_fire",
       "effect_spec": "/pa/units/sea/hover_ship/hover_ship_muzzle_flash.pfx socket_rightMuzzle01 /pa/units/sea/hover_ship/hover_ship_muzzle_flash.pfx socket_leftMuzzle01",
@@ -257,7 +261,10 @@
   "audio": {
     "loops": {
       "move": {
-        "cue": "/SE/Movement/sea/hover_ship_loop"
+        "cue": "/SE/Movement/sea/hover_ship_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
       }
     }
   },

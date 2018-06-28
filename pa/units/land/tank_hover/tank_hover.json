@@ -70,9 +70,15 @@
     }
   ],
   "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_hover_fire",
       "effect_spec": "/pa/units/land/tank_hover/tank_hover_muzzle_flash.pfx socket_muzzle"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Veh"
     }
   },
   "fx_offsets": [
@@ -140,7 +146,10 @@
   "audio": {
     "loops": {
       "move": {
-        "cue": "/SE/Movement/veh/tank_hover_loop"
+        "cue": "/SE/Movement/veh/tank_hover_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
       }
     },
     "selection_response": {

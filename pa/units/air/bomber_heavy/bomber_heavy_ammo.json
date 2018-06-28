@@ -4,9 +4,13 @@
   "splash_damage": 5000,
   "splash_radius": 20,
   "full_damage_splash_radius": 5,
+  "splash_damages_allies": false,
+  "initial_velocity": 15.0,
   "lifetime": 5,
   "physics": {
-    "gravity_scalar": 10
+    "radius": 1,
+    "gravity_scalar": 10,
+    "add_to_spatial_db": false
   },
   "damage_volume": {
     "initial_radius": 0.0,
