@@ -6,7 +6,6 @@
   "full_damage_splash_radius": 0,
   "splash_damages_allies": false,
   "initial_velocity": 150.0,
-  "lifetime": 30,
   "influence_radius": 400,
   "audio_loop": "/SE/Movement/missile/artillery_short_missile_fly_loop",
   "events": {
@@ -21,11 +20,6 @@
   },
   "spawn_unit_on_death": "/pa/units/land/assault_bot/assault_bot.json",
   "fx_trail": {
-    "filename": "/pa/units/land/artillery_unit_launcher/artillery_unit_launcher_ammo_trail.pfx",
-    "offset": [
-      0.0,
-      1.0,
-      0.0
-    ]
+    "filename": "/pa/units/land/artillery_unit_launcher/artillery_unit_launcher_ammo_trail.pfx"
   }
 }

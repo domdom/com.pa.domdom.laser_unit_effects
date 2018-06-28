@@ -8,11 +8,6 @@
   "max_velocity": 180.0,
   "lifetime": 1,
   "fx_trail": {
-    "offset": [
-      0.0,
-      0.0,
-      0.0
-    ],
     "filename": "/pa/units/land/bot_tesla/bot_tesla_ammo_trail.pfx"
   },
   "events": {
@@ -22,10 +17,6 @@
     }
   },
   "physics": {
-    "type": "Projectile",
-    "radius": 1,
-    "gravity_scalar": 8,
-    "add_to_spatial_db": false,
-    "allow_underground": true
+    "gravity_scalar": 8
   }
 }

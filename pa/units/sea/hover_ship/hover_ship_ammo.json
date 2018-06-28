@@ -4,7 +4,6 @@
   "splash_damage": 200,
   "splash_radius": 5,
   "full_damage_splash_radius": 2,
-  "splash_damages_allies": false,
   "initial_velocity": 170.0,
   "max_velocity": 170.0,
   "lifetime": 2,
@@ -17,9 +16,6 @@
     }
   },
   "physics": {
-    "radius": 1,
-    "gravity_scalar": 7,
-    "add_to_spatial_db": false,
-    "allow_underground": true
+    "gravity_scalar": 7
   }
 }

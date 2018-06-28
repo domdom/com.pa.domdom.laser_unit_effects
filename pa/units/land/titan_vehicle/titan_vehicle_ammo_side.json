@@ -13,17 +13,9 @@
     }
   },
   "physics": {
-    "radius": 1,
-    "gravity_scalar": 10,
-    "add_to_spatial_db": false,
-    "allow_underground": true
+    "gravity_scalar": 10
   },
   "fx_trail": {
-    "offset": [
-      0.0,
-      0.8,
-      0.0
-    ],
     "filename": "/pa/units/land/titan_vehicle/titan_vehicle_ammo_side_trail.pfx"
   }
 }
