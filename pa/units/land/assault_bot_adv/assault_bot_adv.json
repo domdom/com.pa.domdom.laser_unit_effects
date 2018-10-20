@@ -3,7 +3,7 @@
   "display_name": "!LOC:Slammer",
   "description": "!LOC:Assault Bot- Well-armored. High damage guns and torpedoes. Amphibious. Attacks land and sea.",
   "max_health": 400,
-  "build_metal_cost": 450,
+  "build_metal_cost": 500,
   "attachable": {
     "offsets": {
       "root": [
