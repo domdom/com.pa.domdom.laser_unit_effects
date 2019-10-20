@@ -5,9 +5,9 @@
   "splash_radius": 0,
   "full_damage_splash_radius": 0,
   "splash_damages_allies": false,
-  "initial_velocity": 600.0,
-  "max_velocity": 600.0,
-  "lifetime": 0.75,
+  "initial_velocity": 1000.0,
+  "max_velocity": 1000.0,
+  "lifetime": 0.25,
   "events": {
     "died": {
       "audio_cue": "/SE/Impacts/shell_bullet",

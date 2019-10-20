@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "display_name": "!LOC:Orca",
-  "description": "!LOC:Destroyer- Long-range. High damage. Very durable. Attacks land, sea and undersea targets.",
+  "display_name": "Orca",
+  "description": "!LOC:Deep Water Destroyer - Medium range with high damage. Very durable. Attacks land, sea and undersea targets.",
   "build_metal_cost": 600,
   "max_health": 1500,
   "spawn_layers": "WL_DeepWater",
@@ -22,7 +22,7 @@
     "type": "deepwater",
     "acceleration": 30,
     "brake": 90,
-    "move_speed": 9,
+    "move_speed": 12,
     "turn_speed": 45,
     "turn_accel": 15,
     "park_stamp_type": "box",
