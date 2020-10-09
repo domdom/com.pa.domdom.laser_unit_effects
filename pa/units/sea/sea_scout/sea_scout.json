@@ -1,17 +1,17 @@
 {
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "display_name": "Piranha",
-  "description": "!LOC:Gunboat - Cheap. Fast. Expendable. Attacks land and sea targets.",
+  "description": "!LOC:Gunboat - Cheap. Fast. Expendable. Water hover. Attacks land and sea targets.",
   "max_health": 175,
   "build_metal_cost": 150,
   "spawn_layers": "WL_WaterSurface",
   "unit_types": [
     "UNITTYPE_Naval",
-    "UNITTYPE_Scout",
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_WaterHover"
   ],
   "navigation": {
     "type": "water-hover",
