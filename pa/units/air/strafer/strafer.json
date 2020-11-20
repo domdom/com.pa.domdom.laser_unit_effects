@@ -3,7 +3,7 @@
   "display_name": "Horsefly",
   "description": "!LOC:Strafer Aircraft - Loud and annoying. Attacks land and sea targets.",
   "max_health": 1250,
-  "build_metal_cost": 2000,
+  "build_metal_cost": 1800,
   "unit_types": [
     "UNITTYPE_Gunship",
     "UNITTYPE_Mobile",
