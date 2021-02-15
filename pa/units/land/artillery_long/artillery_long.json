@@ -3,7 +3,7 @@
   "display_name": "Holkins",
   "description": "!LOC:Advanced Artillery - Extremely long range heavy damage. Can lay siege from very far away. Attacks land and sea targets.",
   "max_health": 5000,
-  "build_metal_cost": 9600,
+  "build_metal_cost": 10000,
   "atrophy_rate": 240.0,
   "atrophy_cool_down": 15.0,
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
