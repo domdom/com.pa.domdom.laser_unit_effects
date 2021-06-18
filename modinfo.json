@@ -6,14 +6,14 @@
   "author": "dom314",
   "icon": "http://i.imgur.com/PQOpc3u.gif",
   "priority": 105,
-  "version": "1.5.3-115693",
+  "version": "1.5.3-115711",
   "forum": "https://forums.uberent.com/threads/rel-client-more-pew-pew.69229/",
   "category": [
     "titans",
     "effects"
   ],
   "titansOnly": true,
-  "build": "115693",
-  "date": "2021-06-16",
+  "build": "115711",
+  "date": "2021-06-18",
   "signature": " "
 }
