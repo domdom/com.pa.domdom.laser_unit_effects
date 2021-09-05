@@ -36,7 +36,6 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",
     "UNITTYPE_Land",
-    "UNITTYPE_Amphibious",
     "UNITTYPE_NoBuild"
   ],
   "command_caps": [
@@ -74,10 +73,6 @@
         },
         {
           "move_type": "hover",
-          "stamp_type": "simple"
-        },
-        {
-          "move_type": "water-hover",
           "stamp_type": "simple"
         }
       ]
@@ -182,8 +177,8 @@
     "diameter": 16.6
   },
   "mesh_bounds": [
-    10,
-    10,
-    12
+    12.6,
+    8.71255,
+    15.6193
   ]
 }

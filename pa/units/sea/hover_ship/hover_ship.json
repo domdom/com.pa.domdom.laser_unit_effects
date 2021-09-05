@@ -6,6 +6,11 @@
   "max_health": 2000,
   "spawn_layers": "WL_DeepWater",
   "armor_type": "AT_Hover",
+  "mesh_bounds": [
+    4,
+    24,
+    7
+  ],
   "unit_types": [
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
@@ -266,10 +271,5 @@
   "selection_icon": {
     "diameter": 34.0
   },
-  "TEMP_texelinfo": 22.1895,
-  "mesh_bounds": [
-    10,
-    25,
-    7
-  ]
+  "TEMP_texelinfo": 22.1895
 }

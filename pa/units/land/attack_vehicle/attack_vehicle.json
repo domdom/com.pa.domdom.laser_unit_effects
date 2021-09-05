@@ -20,7 +20,6 @@
   },
   "unit_types": [
     "UNITTYPE_Tank",
-    "UNITTYPE_Vehicle",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
@@ -36,7 +35,7 @@
     "type": "land-small",
     "acceleration": 150,
     "brake": 150,
-    "move_speed": 18,
+    "move_speed": 15,
     "turn_speed": 180
   },
   "physics": {
@@ -47,6 +46,12 @@
       "items": [
         {
           "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 110
+        },
+        {
+          "layer": "underwater",
           "channel": "sight",
           "shape": "capsule",
           "radius": 110
