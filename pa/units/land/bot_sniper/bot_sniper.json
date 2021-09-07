@@ -25,7 +25,8 @@
     "UNITTYPE_Land",
     "UNITTYPE_Artillery",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_TacticalDefense"
   ],
   "guard_layer": "WL_AnySurface",
   "navigation": {
@@ -49,13 +50,7 @@
           "layer": "surface_and_air",
           "channel": "sight",
           "shape": "capsule",
-          "radius": 220
-        },
-        {
-          "layer": "underwater",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 220
+          "radius": 200
         }
       ]
     }

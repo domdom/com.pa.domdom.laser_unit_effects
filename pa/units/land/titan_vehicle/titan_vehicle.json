@@ -71,6 +71,10 @@
           "stamp_type": "structure"
         },
         {
+          "move_type": "water-hover",
+          "stamp_type": "structure"
+        },
+        {
           "move_type": "hover-large",
           "stamp_type": "simple"
         },
@@ -406,6 +410,11 @@
     40,
     40,
     22
+  ],
+  "wreckage_mesh_bounds": [
+    40,
+    40,
+    17
   ],
   "TEMP_texelinfo": 31.0
 }

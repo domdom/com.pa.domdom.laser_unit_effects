@@ -25,7 +25,8 @@
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_CannonBuildable"
+    "UNITTYPE_CannonBuildable",
+    "UNITTYPE_Amphibious"
   ],
   "transportable": {
     "size": 1
@@ -33,9 +34,9 @@
   "guard_layer": "WL_AnySurface",
   "navigation": {
     "type": "amphibious",
-    "acceleration": 50,
+    "acceleration": 190,
     "brake": -1,
-    "move_speed": 18,
+    "move_speed": 19,
     "turn_speed": 720
   },
   "physics": {
