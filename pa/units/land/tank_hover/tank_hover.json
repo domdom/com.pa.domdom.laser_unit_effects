@@ -31,7 +31,7 @@
   "transportable": {
     "size": 1
   },
-  "guard_layer": "WL_LandHorizontal",
+  "guard_layer": "WL_AnySurface",
   "navigation": {
     "type": "hover",
     "acceleration": 140,

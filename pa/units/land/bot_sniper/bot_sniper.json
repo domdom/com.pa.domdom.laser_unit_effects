@@ -67,7 +67,7 @@
     "animtree": "/pa/anim/anim_trees/bot_sniper_anim_tree.json",
     "walk_speed": 12
   },
-  "nearby_target_tick_update_interval": 15,
+  "nearby_target_tick_update_interval": 2,
   "tools": [
     {
       "spec_id": "/pa/units/land/bot_sniper/bot_sniper_tool_weapon.json",

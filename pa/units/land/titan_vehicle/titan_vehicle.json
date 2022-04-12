@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "display_name": "Ares",
   "description": "!LOC:Rolling Fortress - Near invincible. Long range. Heavy damage. Hover. Attacks land and sea targets.",
-  "max_health": 80000,
+  "max_health": 50000,
   "build_metal_cost": 30000,
   "armor_type": "AT_Hover",
   "atrophy_rate": 200.0,
@@ -163,14 +163,6 @@
         "socket_rear_muzzle01",
         "socket_rear_muzzle02"
       ]
-    },
-    {
-      "spec_id": "/pa/units/land/titan_vehicle/titan_vehicle_tool_weapon_stomp.json",
-      "record_index": -1,
-      "fire_event": "fired",
-      "projectiles_per_fire": 1,
-      "aim_bone": "bone_root",
-      "muzzle_bone": "bone_root"
     }
   ],
   "teleportable": null,

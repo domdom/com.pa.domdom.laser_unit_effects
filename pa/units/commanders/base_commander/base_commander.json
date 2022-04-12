@@ -58,8 +58,8 @@
     "acceleration": 60,
     "brake": -1,
     "move_speed": 6,
-    "turn_speed": 90,
-    "turn_in_place": false,
+    "turn_speed": 180,
+    "turn_in_place": true,
     "park_stamp": {
       "shape": "sphere",
       "cost": 20,

@@ -3,7 +3,7 @@
   "unit_name": "Single Laser Defense Tower",
   "display_name": "!LOC:Single Laser Defense Tower",
   "description": "!LOC:Basic Turret - Equipped with direct fire anti-land, and anti-ship defenses.",
-  "max_health": 350,
+  "max_health": 400,
   "build_metal_cost": 225,
   "atrophy_rate": 5.0,
   "atrophy_cool_down": 15.0,

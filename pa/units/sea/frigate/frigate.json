@@ -73,6 +73,14 @@
         "socket_rightMuzzle02",
         "socket_leftMuzzle02"
       ]
+    },
+    {
+      "spec_id": "/pa/units/sea/frigate/frigate_tool_weapon_torpedo.json",
+      "record_index": 2,
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_root",
+      "fire_event": "fired2",
+      "show_range": false
     }
   ],
   "events": {
