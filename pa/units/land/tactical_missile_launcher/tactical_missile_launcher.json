@@ -74,7 +74,9 @@
     "UNITTYPE_Tactical",
     "UNITTYPE_Defense",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FabAdvBuild"
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_SurfaceDefense",
+    "UNITTYPE_OrbitalDefense"
   ],
   "command_caps": [
     "ORDER_Attack"

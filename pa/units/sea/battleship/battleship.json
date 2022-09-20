@@ -6,8 +6,8 @@
   "build_metal_cost": 4800,
   "spawn_layers": "WL_WaterSurface",
   "mesh_bounds": [
-    9,
-    40,
+    10,
+    45,
     12
   ],
   "unit_types": [

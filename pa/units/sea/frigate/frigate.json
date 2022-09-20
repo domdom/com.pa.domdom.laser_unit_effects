@@ -6,9 +6,9 @@
   "build_metal_cost": 450,
   "spawn_layers": "WL_WaterSurface",
   "mesh_bounds": [
-    6,
-    15,
-    8
+    8,
+    18,
+    6
   ],
   "unit_types": [
     "UNITTYPE_Naval",

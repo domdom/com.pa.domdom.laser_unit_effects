@@ -7,7 +7,7 @@
   "spawn_layers": "WL_DeepWater",
   "mesh_bounds": [
     4,
-    24,
+    28,
     7
   ],
   "unit_types": [
