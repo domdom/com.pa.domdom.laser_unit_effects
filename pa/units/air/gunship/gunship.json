@@ -6,6 +6,7 @@
   "build_metal_cost": 800,
   "spawn_layers": "WL_Air",
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Gunship",
     "UNITTYPE_Air",
     "UNITTYPE_Mobile",

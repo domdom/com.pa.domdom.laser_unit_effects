@@ -5,7 +5,7 @@
   "strategic_icon_priority": 0,
   "max_health": 12500,
   "build_metal_cost": 25000,
-  "buildable_types": "CmdBuild",
+  "buildable_types": "CmdBuild & Custom58",
   "show_in_orbital_layer": true,
   "armor_type": "AT_Commander",
   "attachable": {
@@ -31,6 +31,7 @@
     "metal": 1500
   },
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Commander",
     "UNITTYPE_Construction",
     "UNITTYPE_Mobile",
@@ -85,7 +86,8 @@
   },
   "physics": {
     "radius": 9,
-    "sync_radius_to_extents": true
+    "sync_radius_to_extents": true,
+    "air_friction": 1
   },
   "recon": {
     "observer": {
