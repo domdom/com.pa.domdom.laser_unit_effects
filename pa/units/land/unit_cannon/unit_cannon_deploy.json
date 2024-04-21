@@ -4,8 +4,8 @@
   "damage": 0,
   "splash_damage": 0,
   "splash_radius": 0,
-  "initial_velocity": 150.0,
-  "max_velocity": 150.0,
+  "initial_velocity": 250.0,
+  "max_velocity": 250.0,
   "turn_rate": 90,
   "lifetime": 0,
   "interplanetary_type": "INTER_System",
@@ -69,6 +69,7 @@
       "stage_duration": 0,
       "stage_turn_rate": 0,
       "stage_change_height": 300,
+      "release_payload_on_impact": true,
       "rotates_to_velocity": true
     },
     {
@@ -77,6 +78,7 @@
       "stage_duration": 0,
       "stage_turn_rate": 90,
       "stage_change_range": 150,
+      "release_payload_on_impact": true,
       "rotates_to_velocity": true
     },
     {

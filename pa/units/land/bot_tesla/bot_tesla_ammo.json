@@ -6,7 +6,7 @@
   "full_damage_splash_radius": 2,
   "initial_velocity": 180.0,
   "max_velocity": 180.0,
-  "lifetime": 1,
+  "lifetime": 0.5,
   "fx_trail": {
     "offset": [
       0.0,

@@ -24,7 +24,7 @@
     }
   },
   "fx_trail": {
-    "filename": "/pa/units/commanders/base_commander/base_commander_torpedo_ammo_trail.pfx",
+    "filename": "/pa/units/commanders/base_commander/base_commander_torpedo_ammo_water_trail.pfx",
     "offset": [
       0.0,
       0.8,
