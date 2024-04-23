@@ -5,6 +5,17 @@
   "initial_velocity": 160.0,
   "max_velocity": 160.0,
   "lifetime": 1,
+  "model": {
+    "filename": ""
+  },
+  "fx_trail": {
+    "offset": [
+      0.0,
+      0.8,
+      0.0
+    ],
+    "filename": "/pa/units/land/tank_laser_adv/tank_laser_adv_ammo_trail.pfx"
+  },
   "physics": {
     "type": "Projectile",
     "radius": 1,
@@ -16,13 +27,5 @@
     "died": {
       "effect_spec": "/pa/units/land/tank_laser_adv/tank_laser_adv_ammo_hit.pfx"
     }
-  },
-  "fx_trail": {
-    "offset": [
-      0.0,
-      0.8,
-      0.0
-    ],
-    "filename": "/pa/units/land/tank_laser_adv/tank_laser_adv_ammo_trail.pfx"
   }
 }

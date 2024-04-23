@@ -64,8 +64,8 @@
       "aim_bone": "socket_aim",
       "projectiles_per_fire": 2,
       "muzzle_bone": [
-        "socket_leftMuzzle",
-        "socket_rightMuzzle"
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
       ]
     }
   ],

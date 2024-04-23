@@ -47,6 +47,7 @@
   "transportable": {
     "size": 1
   },
+  "guard_radius": 0,
   "navigation": {
     "type": "land-small",
     "acceleration": 250,
