@@ -36,6 +36,7 @@
   ],
   "unit_types": [
     "UNITTYPE_Custom58",
+    "UNITTYPE_Offense",
     "UNITTYPE_Tank",
     "UNITTYPE_Vehicle",
     "UNITTYPE_Scout",

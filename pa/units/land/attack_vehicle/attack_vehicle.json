@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "display_name": "Stryker",
-  "description": "!LOC:Attack Vehicle - Fast, adaptable, expendable. Attacks surface targets.",
+  "description": "!LOC:Attack Vehicle - Fast, adaptable, expendable. Attacks surface and Air targets.",
   "max_health": 60,
   "build_metal_cost": 55,
   "attachable": {
@@ -37,7 +37,7 @@
     "type": "land-small",
     "acceleration": 150,
     "brake": 150,
-    "move_speed": 17,
+    "move_speed": 15,
     "turn_speed": 180
   },
   "physics": {

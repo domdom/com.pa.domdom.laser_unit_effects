@@ -20,6 +20,7 @@
   },
   "unit_types": [
     "UNITTYPE_Custom58",
+    "UNITTYPE_Sub",
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",

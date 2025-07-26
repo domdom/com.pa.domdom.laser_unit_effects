@@ -7,7 +7,7 @@
   "armor_type": "AT_Hover",
   "atrophy_rate": 200.0,
   "atrophy_cool_down": 15.0,
-  "wreckage_health_frac": 0.7,
+  "wreckage_health_frac": 1.0,
   "has_death_effects": true,
   "attachable": {
     "offsets": {
