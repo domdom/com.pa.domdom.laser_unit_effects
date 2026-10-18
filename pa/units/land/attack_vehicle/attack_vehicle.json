@@ -35,9 +35,9 @@
   "guard_layer": "WL_AnySurface",
   "navigation": {
     "type": "land-small",
-    "acceleration": 150,
-    "brake": 150,
-    "move_speed": 15,
+    "acceleration": 140,
+    "brake": 140,
+    "move_speed": 14,
     "turn_speed": 180
   },
   "physics": {

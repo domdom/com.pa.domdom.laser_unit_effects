@@ -1,5 +1,6 @@
 {
   "ammo_type": "AMMO_Projectile",
+  "ignore_shields": true,
   "flight_type": "Staged",
   "damage": 0,
   "splash_damage": 0,
